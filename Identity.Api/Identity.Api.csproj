@@ -6,4 +6,19 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Identity.Application\Identity.Application.csproj" />
+      <ProjectReference Include="..\Identity.Domain\Identity.Domain.csproj" />
+      <ProjectReference Include="..\Identity.Infrastructure\Identity.Infrastructure.csproj" />
+      <ProjectReference Include="..\Identity.Persistence\Identity.Persistence.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.4">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
 </Project>
