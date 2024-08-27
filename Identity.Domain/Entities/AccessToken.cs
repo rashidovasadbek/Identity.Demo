@@ -1,4 +1,4 @@
-﻿using Identity.Domain.Common.Entities;
+using Identity.Domain.Common.Entities;
 
 namespace Identity.Domain.Entities;
 
